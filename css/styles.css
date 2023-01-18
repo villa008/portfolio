@@ -393,6 +393,22 @@ html {
     }
 }
 
+.skills .skill .mongo {
+    width: 0%;
+    animation: 2s mongo forwards;
+}
+
+@keyframes mongo {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 85%
+    }
+}
+
+
 .skills .skill .comunicacion {
     width: 0%;
     animation: 2s comunicacion forwards;
@@ -544,11 +560,14 @@ html {
 .curriculum .fila .izq {
     border-right: 2px solid #486cf8;
     margin-right: 20px;
+    height: 280px;
+
 }
 
 .curriculum .fila .der {
     border-left: 2px solid #486cf8;
     margin-left: 20px;
+    height: 280px;
 }
 
 .curriculum .fila .item .conectori {
