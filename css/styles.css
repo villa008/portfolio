@@ -121,9 +121,26 @@ html {
     transition: .3s;
 }
 
-.inicio .contenido-banner .redes a:hover {
-    background-color: #486cf8;
+.inicio .contenido-banner .redes a.face:hover {
+    background-color: #4267B2;
 }
+
+.inicio .contenido-banner .redes a.twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.inicio .contenido-banner .redes a.linkedin:hover {
+    background-color: #0e76a8;
+}
+
+.inicio .contenido-banner .redes a.whatsapp:hover {
+    background-color: #25D366;
+}
+
+.inicio .contenido-banner .redes a.github:hover {
+    background-color: #6e5494;
+}
+
 
 /*SOBRE MI*/
 
@@ -810,9 +827,27 @@ footer .redes a {
     transition: .3s;
 }
 
-footer .redes a:hover {
-    background-color: #486cf8;
+footer .redes a.face:hover {
+    background-color: #4267B2;
 }
+
+footer .redes a.twitter:hover {
+    background-color: #1DA1F2;
+}
+
+footer .redes a.linkedin:hover {
+    background-color: #0e76a8;
+}
+
+footer .redes a.whatsapp:hover {
+    background-color: #25D366;
+}
+
+footer .redes a.github:hover {
+    background-color: #6e5494;
+}
+
+
 
 footer .arriba {
     display: block;
