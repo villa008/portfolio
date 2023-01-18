@@ -577,14 +577,14 @@ html {
 .curriculum .fila .izq {
     border-right: 2px solid #486cf8;
     margin-right: 20px;
-    height: 280px;
+    height: 350px;
 
 }
 
 .curriculum .fila .der {
     border-left: 2px solid #486cf8;
     margin-left: 20px;
-    height: 280px;
+    height: 350px;
 }
 
 .curriculum .fila .item .conectori {
@@ -918,7 +918,7 @@ footer .arriba {
         display: block;
     }
     .curriculum .fila .col{
-        width: 90%;
+        width: 100%;
     }
     .curriculum .fila .derecha{
         margin-left: 20px;
@@ -940,3 +940,4 @@ footer .arriba {
         width: 100%;
     }
 }
+
