@@ -810,6 +810,10 @@ footer .redes a {
     transition: .3s;
 }
 
+footer .redes a:hover {
+    background-color: #486cf8;
+}
+
 footer .arriba {
     display: block;
     width: 50px;
