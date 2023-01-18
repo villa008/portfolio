@@ -30,11 +30,13 @@ function efectoHabilidades(){
         habilidades[2].classList.add("react");
         habilidades[3].classList.add("node");
         habilidades[4].classList.add("express");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajoenequipo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("management");
+        habilidades[5].classList.add("mongo");
+        habilidades[6].classList.add("comunicacion");
+        habilidades[7].classList.add("trabajoenequipo");
+        habilidades[8].classList.add("creatividad");
+        habilidades[9].classList.add("dedicacion");
+        habilidades[10].classList.add("management");
+        
     }
 }
 
