@@ -683,7 +683,7 @@ html {
 /*Contacto*/
 
 .contacto {
-    background-image: url(../img/contacto.png);
+    background-image: url(../img/contacto.jpg);
     background-color: #1e2326;
     color: #fff;
     padding: 50px;
@@ -789,6 +789,7 @@ footer {
     text-align: center;
     position: relative;
     width: 100%;
+    height: 180px;
 }
 
 footer .redes {
@@ -804,7 +805,7 @@ footer .redes a {
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 40px 5px;
+    margin: 10px 2px;
     font-size: 20px;
     transition: .3s;
 }
