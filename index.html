@@ -416,16 +416,19 @@
             <div class="fila">
                 <!---Formulario-->
                 <div class="col">
-                    <form action="">
-                        <input type="text" placeholder="Tu nombre" required>
-                        <input type="text" placeholder="Numero telefonico" required>
-                        <input type="email" placeholder="Direccion de correo" required>
-                        <input type="text" placeholder="Tema">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
-                        <button>
+                    <form action="https://formsubmit.co/sergiovillagomez@gmail.com" method="post">
+                        <input type="text" name="name" placeholder="Tu nombre" required>
+                        <input type="text" name="phone" placeholder="Numero telefonico" required>
+                        <input type="email" name="emai" placeholder="Direccion de correo" required>
+                        <input type="text" name="theme" placeholder="Tema">
+                        <textarea name="textarea" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
                             Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
                         </button>
+
+                        <input type="hidden" name="_next" value="http://www.villagomez.com.ar/#contacto" >
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
 
                 </div>
