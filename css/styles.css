@@ -79,7 +79,7 @@ html {
 }
 
 .inicio .contenido-banner {
-    padding: 20px ;
+    padding: 20px;
     background-color: #1e2326;
     max-width: 550px;
     margin: auto;
@@ -799,6 +799,13 @@ html {
     margin-right: 20px;
 }
 
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
 /*footer*/
 
 footer {
@@ -916,30 +923,37 @@ footer .arriba {
     .skills .fila .col .barra-skill {
         width: 100%;
     }
-    .curriculum .fila{
+
+    .curriculum .fila {
         display: block;
     }
-    .curriculum .fila .col{
+
+    .curriculum .fila .col {
         width: 100%;
     }
-    .curriculum .fila .derecha{
+
+    .curriculum .fila .derecha {
         margin-left: 20px;
     }
-    .portfolio .galeria{
+
+    .portfolio .galeria {
         display: block;
         width: 100%;
     }
-    .portfolio .galeria .proyecto{
+
+    .portfolio .galeria .proyecto {
         max-width: 100%;
     }
-    .portfolio .galeria .proyecto img{
+
+    .portfolio .galeria .proyecto img {
         width: 100%;
     }
-    .contacto .fila{
+
+    .contacto .fila {
         display: block;
     }
-    .contacto .fila .col{
+
+    .contacto .fila .col {
         width: 100%;
     }
 }
-
