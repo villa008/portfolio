@@ -654,7 +654,7 @@ html {
 .portfolio .galeria {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
 
 .portfolio .galeria .proyecto {
