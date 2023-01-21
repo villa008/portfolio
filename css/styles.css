@@ -86,7 +86,7 @@ html {
     margin: auto;
     text-align: center;
     border-radius: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
 }
 
 .inicio .contenido-banner img {
@@ -805,8 +805,8 @@ html {
 }
 
 textarea {
-    min-height: 100px;
-    max-height: 200px;
+    min-height: 50px;
+    max-height: 120px;
     max-width: 100%;
     min-width: 100%;
 }
@@ -960,5 +960,9 @@ footer .arriba {
 
     .contacto .fila .col {
         width: 100%;
+    }
+
+    .inicio .contenido-banner{
+        margin-bottom: 100px;
     }
 }
