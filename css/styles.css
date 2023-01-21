@@ -76,6 +76,7 @@ html {
     color: #fff;
     display: flex;
     align-items: center;
+   
 }
 
 .inicio .contenido-banner {
@@ -85,6 +86,7 @@ html {
     margin: auto;
     text-align: center;
     border-radius: 50px;
+    margin-bottom: 0px;
 }
 
 .inicio .contenido-banner img {
@@ -507,11 +509,13 @@ html {
     background-color: #131517;
     color: #fff;
     padding: 50px 20px;
+   
 }
 
 .curriculum .contenido-seccion {
     max-width: 1100px;
     margin: auto;
+    
 }
 
 .curriculum h2 {
@@ -524,6 +528,7 @@ html {
 .curriculum .fila {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .curriculum .fila .col {
